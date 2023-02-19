@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{background-color: #8ef9f4a3;
+}
+nav{ background-color:rgb(12, 12, 12)
+}
+nav ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;}
+nav ul li{
+    padding: 0px 20px;
+}
+#logo{
+    display: flex;
+    /* background-color: brown; */
+    height: 70px;
+    align-items: center;
+}
+#logo img{
+    width: 60px;
+}
+#about{
+    position: absolute;
+    right:100px;
+}
+#home{
+    position: absolute;
+    right: 250px; 
+}
+.container{
+    background-color: black; 
+    color: white;
+    height: 70vh;
+    display: flex;
+    width: 75vw;
+    margin:50px auto;
+    border-radius: 10px;
+    background-image: url(./bg.jpg);
+}
+.player{
+    position: sticky;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 12.3vh;
+}
+.player #arranger{
+    width: 75vw;
+    height: 6vh;
+    cursor: pointer;
+}
+.container h1{
+    padding:60px 100px;
+}
+.song1{
+    height:50px;
+    display: flex;
+    width: 20vw;
+    background-color: rgba(79, 74, 74, 0.506);
+    color: white;
+    margin: 12px 0px;
+    margin-left: 120px;
+    border-radius: 30px;
+}
+.song1 img{
+    border-radius: 100px;
+    margin: 0px 25px ;
+}
+.song1 p,span{
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0px 20px;
+}
+.song1 i{
+    margin: 0px 10px;
+} 
+.info{
+    position: absolute;
+    left: 12vw;
+    top: 6vh;
+}
+ 
